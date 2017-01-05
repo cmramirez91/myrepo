@@ -2,11 +2,13 @@
 title: "Hello_world"
 author: "MR"
 date: "1/5/2017"
-output: 
-html_document:
-keep_md: yes
+output: github_document
 ---
-This is an English sentence
+# This is an English sentence
 ```{r}
-## comment 1
+summary(VADeaths)
 ```
+```{r}
+dotchart(VADeaths, main = "Death Rates in Virginia - 1940")
+```
+Need md as well!
